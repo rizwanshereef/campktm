@@ -2,7 +2,7 @@
 /* Database connection start */
 $servername = "localhost:3306";
 $username = "campktmm_soorya";
-$password = "$00rya@db";
+$password = "passwd";
 $dbname = "campktmm_keraladata";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname) or die("Connection failed: " . mysqli_connect_error());
